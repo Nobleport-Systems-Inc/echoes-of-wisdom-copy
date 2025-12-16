@@ -32,6 +32,11 @@ const navigationItems = [
     url: createPageUrl("TokenLaunch"),
     icon: Coins,
   },
+  {
+    title: "Payment Options",
+    url: createPageUrl("Payment"),
+    icon: BookOpen,
+  },
 ];
 
 export default function Layout({ children, currentPageName }) {
